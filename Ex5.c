@@ -9,21 +9,19 @@ int main()
            3                    1 1 2
            5                  1 1 2 3 5
     */
-    char *c;
     int a = 1, b = 1, n;
 
     printf("Digite a quantidad de termos: ");
     scanf("%d", &n);
     printf("\n");
+    
     for (int i = 0; i < n; i++)
     {
-        if (i % 2 == 0)
-        {
+        if (i % 2 == 0){
             printf("%d ", a);
             a += b;
         }
-        else
-        {
+        else{
             printf("%d ", b);
             b += a;
         }
