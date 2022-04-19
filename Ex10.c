@@ -5,6 +5,7 @@ void adivinha() {
     /*Faça um programa para adivinhar um número escolhido pelo usuário, entre 1 e 1023. Indique ao 
     final quantas tentativas foram necessárias. O programa deverá localizar o número escolhido pelo 
     usuário em no máximo 10 tentativas*/
+    
 
     setlocale(LC_ALL,"portuguese");
     int aleatorio, ultimo=1023,primeiro=1,tentativas=0;

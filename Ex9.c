@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <time.h> //necessário p/ função time()
+
 int main()
 {
     /* srand(time(NULL)) inicializa o gerador de números aleatórios com o valor da função time(NULL). time (NULL) é o total de segundos passados

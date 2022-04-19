@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-main(){
+int main(){
     //Números palíndromos são aqueles que escritos da direita para esquerda ou da esquerda para direita tem o mesmo valor. Exemplo:929, 44, 97379. Fazer um algoritmo que imprima todos os números palíndromos de 10000 a 99999.
     int a1, a2, a3, a4, a5;
    
